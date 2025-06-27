@@ -1,1 +1,3 @@
-print("This is my starting code")
+a = 10
+b = 5
+print("a+b")
