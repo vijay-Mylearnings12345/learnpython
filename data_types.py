@@ -1,4 +1,4 @@
-#data types
+#Understanding the data types
 
 #integers, float, boolean, complex
 
