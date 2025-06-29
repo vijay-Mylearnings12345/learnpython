@@ -4,10 +4,13 @@
 
 a=2
 b=3.5
-c=True
-d=complex(b,k)
 
-print(a)
-print(b)
-print(c)
-print(d)
+sum = a + b
+print(sum)
+
+a = 10
+b = 30
+if a < 30:
+    print(True)
+else:
+    print(Flase)
