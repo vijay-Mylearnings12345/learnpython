@@ -1,14 +1,12 @@
-#Basic Concepts
+###Basic Concepts
 
-#Understanding the data types
+#Understanding the data types #integers, float, boolean, complex
 
-#integers, float, boolean, complex
+num1=2
+num2=3.5
+add = num1 + num2
+print('addition is ',add)
 
-a=2
-b=3.5
-
-sum = a + b
-print(sum)
 
 a = 10
 b = 30
@@ -16,6 +14,13 @@ if a < 30:
     print(True)
 else:
     print(Flase)
+    
+    
+#Print function
+a = 10
+b = 5
+print("a+b")
+
 
 
 #Classes & Objects
