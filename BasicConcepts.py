@@ -42,6 +42,17 @@ second_teacher.name2 = "ABDUL"
 print(first_teacher.name1)
 print(second_teacher.name2)
 
+#conditional statements
+#if & else statement
+
+user1=input("Enter the number please", )
+user2=input("Enter the number please", )
+if user1 > user2:
+    print("user1 input number is bigger!")
+else:
+    print("user1 input number is smaller!")
+
+
 
 
 
