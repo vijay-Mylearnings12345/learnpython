@@ -13,5 +13,11 @@ else:
     print("User2 is Elder! and He/She is the Senior!")
     
  
-
-
+a=40
+b=40
+if a!=b:
+  print("Correct")
+else:
+  print("Nothing")
+  
+  
