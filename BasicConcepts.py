@@ -116,3 +116,8 @@ print(b[2:5])
 b = "Hello, World!"
 print(b[:5])
 
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
