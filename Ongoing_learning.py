@@ -1,8 +1,7 @@
-#Slicing Strings
+#String Concatenation
 
-b = "Hello, World!"
-print(b[2:5])
-
-b = "Hello, World!"
-print(b[:5])
+a = "vijaykumar"
+b = "chandra sekar"
+c = a + b
+print(c)
 
