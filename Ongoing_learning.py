@@ -1,12 +1,4 @@
-#String Concatenation
+#string methods
 
-a = "vijaykumar"
-b = "chandra sekar"
-c = a + b
-print(c)
-
-
-a = "vijaykumar"
-b = "chandrasekar"
-c = a + " " + b
-print(c)
+txt = "For only {price:.3f} rupees!"
+print(txt.format(price = 49))
