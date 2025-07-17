@@ -121,3 +121,21 @@ print(a.upper())
 
 a = "Hello, World!"
 print(a.lower())
+
+#String Concatenation
+
+a = "vijaykumar"
+b = "chandra sekar"
+c = a + b
+print(c)
+
+
+a = "vijaykumar"
+b = "chandrasekar"
+c = a + " " + b
+print(c)
+
+#string methods
+
+txt = "For only {price:.3f} rupees!"
+print(txt.format(price = 49))
