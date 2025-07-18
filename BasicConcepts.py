@@ -139,3 +139,13 @@ print(c)
 
 txt = "For only {price:.3f} rupees!"
 print(txt.format(price = 49))
+
+#comments
+"""
+This is the part to learn the comments feature
+Need to understand the comments
+"""
+#single line comment
+#if 5 > 2
+print("The comment line is working as expected")
+print("This is the important learing period for me")
