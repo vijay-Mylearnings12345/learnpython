@@ -22,4 +22,19 @@ def conditional():
         print("a is not the Bigger value")
         
 conditional()
+
+#Using Dictionaries in function
+
+def test():
+    thisdict = {"brand": "Ford","model": "Mustang","year": 1964}
+    print(thisdict)
+    
+test()
         
+def test():
+    thisdict = {"brand": "Ford","model": "Mustang","year": 1964}
+    print(thisdict["brand"])
+    print(thisdict["year"]
+    print(thisdict["model"]
+    
+test()
