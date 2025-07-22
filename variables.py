@@ -4,7 +4,7 @@ Important to know about declarion of global variables'''
 
 #Variables
 #Variable names
-#Multiple variable values
+#Multiple variable & values
 #Output Variable
 #Global Variable
 
@@ -52,8 +52,3 @@ def myfunc():
   x = 'fantastic'
 myfunc()
 print('Python is ' + x)
-
-
-
-
-
