@@ -1,6 +1,6 @@
 #List
 
-#Methods - append, copy, clear, count, extend, index, insert, remove, pop, reverese, sort
+#Methods - len, type, append, copy, clear, count, extend, index, insert, remove, pop, reverese, sort
 
 #Length
 list = [ "Name", "age", "Birthcity", "Nationality", "Marrital Status", 38, True, 1.5]
