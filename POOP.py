@@ -14,6 +14,10 @@ class person():
     def capacity(self):
         print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} cant do anything!")
     
+    def capability(self):
+        print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} is zero!")
+    
+    
 
 person1 = person("Vijay",38,"married",True)
 person2 = person("Ajay",39,"unmarried",True)
@@ -38,3 +42,10 @@ print(person3.marital_status)
 print(person3.live_Status)
 
 print(person1.capacity())
+print(person1.capability())
+
+print(person2.capacity())
+print(person2.capability())
+
+print(person3.capacity())
+print(person3.capability())
