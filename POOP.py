@@ -2,7 +2,8 @@
 
 """
 Objects = Parameters (Variables), Methods (functions)
-Class 
+Class within the same python file
+Different class file
 """
 
 class person():
