@@ -75,3 +75,36 @@ print(gw1.test_status)
 
 
 print(gw1.release_status())
+
+#Example3
+
+class house():
+    def __init__(self, size, rooms, kitchen, storage):
+     self.size = size
+     self.rooms = rooms
+     self.kitchen = kitchen
+     self.storage = storage
+    def Samllfamily(self):
+        print(f"This house has the following parameters such as the size of the house is {self.size} and the no of rooms are {self.rooms} with big size kitchen {self.kitchen} and the seperate storage room size {self.storage}, recommended for family of 3!")
+    def Bigfamily(self):
+        print(f"This house has the following parameters such as the size of the house is {self.size} and the no of rooms are {self.rooms} with big size kitchen {self.kitchen} and the seperate storage room size {self.storage}, recommended for family of 3!") 
+    
+
+Family1 = house("50sq-m","2","with all aminities","10sq-m")
+Family2 = house("70sq-m","3","with all aminities","15sq-m")
+
+
+print(Family1.size)
+print(Family1.rooms)
+print(Family1.kitchen)
+print(Family1.storage)
+
+
+print(Family1.Samllfamily())
+
+print(Family2.size)
+print(Family2.rooms)
+print(Family2.kitchen)
+print(Family2.storage)
+
+print(Family2.Bigfamily())
