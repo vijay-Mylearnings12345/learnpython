@@ -13,10 +13,10 @@ class person():
      self.marital_status = marital_status
      self.live_Status = live_Status
     def capacity(self):
-        print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} cant do anything!")
+        print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} is real!")
     
     def capability(self):
-        print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} is zero!")
+        print(f"{self.name} {self.age} old who's married status is {self.marital_status} and who's live status {self.live_Status} is fake!")
     
     
 
@@ -50,3 +50,28 @@ print(person2.capability())
 
 print(person3.capacity())
 print(person3.capability())
+
+
+#Example2
+
+class gateway():
+    def __init__(self, board, version, release_date, test_status):
+     self.board = board
+     self.version = version
+     self.release_date = release_date
+     self.test_status = test_status
+    def release_status(self):
+        print(f"{self.board} {self.version} with the release date {self.release_date} with test cases status as {self.test_status}, recommeded for production release!")  
+    
+
+gw1 = gateway("imx8GW",2.3,"July2025","Pass")
+
+
+print(gw1.board)
+print(gw1.version)
+print(gw1.release_date)
+print(gw1.test_status)
+
+
+
+print(gw1.release_status())
