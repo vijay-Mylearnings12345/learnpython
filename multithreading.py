@@ -3,6 +3,7 @@
 import threading
 import time
 
+
 def task1(GW1,version):
 	time.sleep(3)
 	print(f"Downloading the {GW1}software {version} from the repo is completed")
@@ -13,7 +14,7 @@ def task2(GW1):
 	
 def task3(GW1):
 	time.sleep(60)
-	print(f"checking the software in the {GW1}is successful")
+	print(f"checking the software in the {GW1} is successful")
 
 output1 =threading.Thread(target=task1,args=("Edge IoT GW","2.3"))
 output1.start()
