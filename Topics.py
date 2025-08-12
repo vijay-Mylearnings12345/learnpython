@@ -10,6 +10,5 @@ Topics to Learn
 
 #Type casting
 
-user1 = int(input("Please enter the name: "))
-print(f" Welcome to the party Mr.{user1}")
+
 
