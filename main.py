@@ -11,3 +11,5 @@ class Laptop:
 
     def shutdown_time(self):
         print(f"The {self.model} is not having the good shutdown time")
+
+    

@@ -152,13 +152,13 @@ print("This is the important learing period for me")
 
 #python environment
 #windows
- python -m venv myfirstproject
+python -m venv myfirstproject
 #linux
 python -m venv myfirstproject
 
 #Functions
 
-def first_functtion():
+def first_function():
     print("This is not the first function")
     
 first_function()
